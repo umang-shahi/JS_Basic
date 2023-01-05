@@ -28,10 +28,16 @@
 // let find = name+ y;
 // console.log(find);
 
-const firstname = "Arya"
-const surname = "Doctor"
-console.log(firstname +" "+ surname)
-console.log("My name is : " + firstname + surname)
-console.log("My name is : " + firstname+ " " + surname)
-const Doctor = (`My name is : ${firstname} ${surname}.`)
-console.log(`Hello Nurse ❤️ ${Doctor}`)
+// const firstname = "Arya"
+// const surname = "Doctor"
+// console.log(firstname +" "+ surname)
+// console.log("My name is : " + firstname + surname)
+// console.log("My name is : " + firstname+ " " + surname)
+// const Doctor = (`My name is : ${firstname} ${surname}.`)
+// console.log(`Hello Nurse ❤️ ${Doctor}`)
+
+let name = "adrian Pradhan"
+console.log(name)
+console.log(typeof name)
+name = Number(name)
+console.log(typeof name)
