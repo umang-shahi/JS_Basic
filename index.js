@@ -36,8 +36,52 @@
 // const Doctor = (`My name is : ${firstname} ${surname}.`)
 // console.log(`Hello Nurse ❤️ ${Doctor}`)
 
-let name = "adrian Pradhan"
+/*let name = "adrian Pradhan"
 console.log(name)
 console.log(typeof name)
 name = Number(name)
-console.log(typeof name)
+console.log(typeof name)*/
+
+// Type conversion and String methods
+
+// let number = 112;
+// console.log(number)
+// console.log(typeof number)
+// console.log(typeof String(number))
+
+// Strings Methods
+
+let str = "Hello Nurse"
+let y = "I am a doctor"
+//CharAt
+console.log(str.charAt(7))
+//Concatenation
+console.log(str.concat(y))
+//length
+console.log(str.length)
+//Replace
+console.log(str.replace('Nurse','Baby'))
+//Uppercase
+console.log(str.toUpperCase())
+//Lowercase
+console.log(str.toLowerCase())
+//Split
+console.log(str.split(""))
+//Split while there is a space
+console.log(str.split(" "))
+//Knowing the index
+console.log(str.indexOf("s"))
+//Last index of method
+console.log(y.lastIndexOf("o"))
+//Includes
+console.log(str.includes("Nurse"))
+let a = "     Ladki ho toh Nurse     "
+console.log(a.trim())
+//Slicing
+console.log(str.slice(0,7)) //It doesnot include the exact last data of the indexing.
+
+
+
+
+
+
