@@ -36,11 +36,11 @@
 // const Doctor = (`My name is : ${firstname} ${surname}.`)
 // console.log(`Hello Nurse ❤️ ${Doctor}`)
 
-/*let name = "adrian Pradhan"
+let name = "adrian Pradhan";
 console.log(name)
 console.log(typeof name)
 name = Number(name)
-console.log(typeof name)*/
+console.log(typeof name)
 
 // Type conversion and String methods
 
@@ -78,8 +78,26 @@ console.log(str.includes("Nurse"))
 let a = "     Ladki ho toh Nurse     "
 console.log(a.trim())
 //Slicing
-console.log(str.slice(0,7)) //It doesnot include the exact last data of the indexing.
+console.log(str.slice(0,7)) //It doesnot include the exact last data of the index
 
+
+
+const heading = document.getElementById('mycss');
+heading.innerText = "hello umang";
+
+
+heading.style.background="red";
+heading.style.color = "white";
+heading.style.textAlign ="center";
+
+
+
+let x=10;
+if(x<5) {
+    console.log("x is greater than 5");
+}else {
+    console.log("x is greater or equal to 5 ");
+}
 
 
 
