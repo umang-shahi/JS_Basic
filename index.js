@@ -233,6 +233,249 @@
 //         break;
 // }
 
+// for (i=0; i<10; i++){
+//     console.log(i);
+// }
+
+// const number = [1, 2, 3, 4, 5, "apil"];
+// document.write(number.length);
+// alert(number[5]);
+
+//while loop
+// let x = 0;
+// while (x<5) {
+//     document.write(x);
+//     x++; }
+
+// do{
+//     document.write(x);
+//     x++;
+// }
+// while(x<5)
+
+//Array
+
+// const myArray = [1, 2, 3, "apil", "g"];
+// document.write(myArray.length);
+
+//push to add element in arry
+// const newAdd = myArray.push("good");
+// document.write(myArray);
+
+//unshift method
+// const newAdd = [ 1, 2, 4, "sdf"];
+// document.write(newAdd.unshift("sharma"));
+// document.write(newAdd);
+
+
+//pop 
+// const newAdd = [ 1, 2, 4, "sdf"];
+// console.log(newAdd);
+// const newData = newAdd.pop();
+// console.log(newData);
+
+//shift 
+// const newAdd = [ 1, 2, 4, "sdf"];
+// const newData = newAdd.shift();
+// console.log(newAdd);
+// console.log(newData);
+
+//concat
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [6, 7, 8, 9,10];
+// console.log(arr1.concat(arr2));
+
+//Filter
+//let newArr = [11, 12, 13, 14, 15, "api"];
+//console.log(newArr);
+//const findFlter = newArr.filter(👎 => n>5);
+//console.log(findFlter);
+//console.log(newArr);
+
+//Splice 
+// console.log(newArr.splice(2,4));
+
+//reverse
+//console.log(newArr.reverse());
+
+//Sorting
+// let newArr = [8,1, 4, 5, 3, 2, ];
+// console.log(newArr)
+// const myData = newArr.sort();
+// console.log(myData);
+// console.log(newArr);
+
+// let myarr = [];
+
+// myarr[0] = 1;
+
+
+
+// for (let i=0;i<10;i++) {
+//     myarr[i]=i;
+//     myarr.push(i);
+// }
+
+
+
+
+
+//objects
+
+// const myProfile = {
+//     firstName : "john",
+//     lastName : "doe",
+//     age : 20,
+//     isMarried : true,
+
+//     isSalary: function () {
+//         console.log("mero name ho umang");
+//     }
+
+// }
+//  console.log(myProfile);
+
+//  console.log(myProfile.age);
+
+//  console.log(myProfile.isMarried);
+
+//  console.log(myProfile["isMarried"]);
+
+//  console.log(myProfile["firstName"]);
+
+// const ans =myProfile.isSalary();
+
+// console.log(ans);
+
+// const car = {
+//     make : "toyota",
+//     model: "camry",
+//     color : "red",
+//     runWheel : 4,
+//     isElectric: false,
+//     startEngine: function () {
+//         console.log("start engine")
+//         return true;
+//     },
+
+//     endEngine: function () {
+//         console.log("end engine")
+//         return false;
+
+//     },
+
+
+// }
+
+// console.log(car);
+// console.log(car.startEngine());
+// console.log(car.endEngine());
+
+// if (car.startEngine () ){
+//     console.log("ready")
+// } else if (car.endEngine ()){
+//     console.log("not ready")
+// } else {
+//     console.log("not valid")
+// }
+
+
+
+
+//functions
+
+// function myData () {
+//     let a = 20;
+//     let b = 10;
+//     let result = a / b;
+
+//     console.log(result);
+    
+// }
+
+// myData();
+
+// function func (a,b,c ){
+//     return (a+b+c)/2;
+
+// }
+
+// const ans = func(1,2,3)
+// const anss = func(1,2,5)
+
+// console.log(ans);
+// console.log(anss);
+
+// const myValue = function () {
+//     let x =5 ;
+//     let y= 3;
+//     let result = x*y;
+//     console.log(result);
+// }
+
+// myValue();
+
+
+
+
+
+
+
+
+// function myData ( arr = []) {
+//     let total = 0;
+//     for (let i=0; i< arr.length; i++){
+//         total = total + arr[i];
+//     }
+//   return total;
+// }
+
+// const ans = myData([3,4,5,6]);
+// console.log(ans);
+
+
+
+
+
+
+
+// var x = 90;
+
+// function myVar(){
+//     var x= 9+9;
+// console.log(x);
+
+// }
+
+// console.log(x);
+
+
+// myVar();
+
+
+// function myBlock(){
+//     if(true){
+//         var x = 9*9;
+//         console.log(x);
+//     }
+//     console.log(x);
+
+// }
+
+// myBlock();
+
+
+
+// function myBlock(){
+//     if(true){
+//         const y= (2*6-1)/2;
+//         console.log(y);
+//         }
+//     }
+// myBlock();
+
+
+
 
 
 
