@@ -1,3 +1,6 @@
+//JAVASCRIPT
+
+
 // var x=3;
 // console.log(x);
 // console.log(x*x*x);
@@ -475,14 +478,43 @@
 // myBlock();
 
 
+//dom manipulation
+
+// const ans = document.getElementById("myIs");
+// ans.innerHTML= "ronaldo 💕";
 
 
+// ans.innerText = "ronaldo is ⭐";
+
+// const result=document.getElementsByClassName("myYour");
+// console.log(result[0]);
+// result[0].innerHTML = "ajxubx  j hhhhhhhjhhhjm";
+  
+
+//  const  ans =document.getElementsByTagName("span");
+//  console.log(ans);
+// ans[0].innerHTML="<h1>sad</h1>";
+
+// const ans = document.getElementsByName("email");
+// console.log(ans[0]);
+// ans[0].style.width= "200px";
+
+// const ans = document.getElementById("click");
+// console.log(ans);
+// ans.style.color= "red";
+// ans.style.backgroundColor="blue";
+// ans.style.padding="2px";
+// ans.style.border="none";
 
 
+// const ans = document.createElement("h2");
+// console.log(ans);
+// document.body.prepend(ans);
 
+// function myFunc(){
+//     const create = document.createElement("h2");
+//     create.innerHTML = "thanos was right";
+//     document.body.append(create);
+// }
 
-
-
-
-
-
+// myFunc();
