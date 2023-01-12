@@ -518,3 +518,83 @@
 // }
 
 // myFunc();
+
+// const myClear= document.querySelectorAll("button");
+// console.log(myClear);
+
+// for(i=0;i<myClear.length;i++){
+//     myClear[1].innerText = "this is the clear button";
+//     myClear[1].style.background = "#00ffff";
+//     myClear[1].style.color ="green";
+//     myClear[1].style.padding ="10px";
+//     myClear[1].style.border ="none";
+//     myClear[1].style.cursor ="pointer";
+//     }
+//     function deleteThis() 
+//     {
+//         const PleaseDelete =documet.querySelector("h1");
+//         PleaseDelete.remove();
+        
+//     }
+
+//     myButton.onCLick =myFunc;
+//     myClear[1].onClick = deleteThis;
+
+
+
+
+
+
+//Advanced array method (if we use for each it cannot return array(anything). it omly iterate main array)
+
+
+ 
+    
+      
+
+    //   const result = arr.forEach((value,index,array) => {
+    //     console.log();
+
+    //   })
+    //   console.log(result);
+
+
+    //map
+    // if we use map method it returns new array after iterate main array 
+   
+
+
+// const myMap = arr.map((value,index,array)=>{
+//   return (arr[index]= value+ 2);
+// });
+
+
+
+// console.log(myMap); 
+
+
+
+// const result = arr.filter((value,index)=>{
+  
+//   return value % 2 !==0 ;
+
+// });
+//     console.log(result);
+
+
+// let arr =[6,8,4,2,10,12];
+
+// const ans = arr.find((value,index)=>{
+//     return value > 4 ;
+// })
+// console.log(ans);
+
+//reduce
+//return single value outputma(sum,average)
+
+// const result = arr.reduce((accum,curValue,index)=>{
+//     accum = accum + curValue;
+//      return accum  ;
+// })
+// console.log(result);
+
