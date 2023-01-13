@@ -598,3 +598,60 @@
 // })
 // console.log(result);
 
+
+// const newClickButn = document.getElementById("newClick");
+// console.log(newClickButn);  
+
+
+//addeventclicklisteners
+
+// const myInput = document.querySelector("input");
+// const myBox = document.getElementById("mybox");
+
+// myInput.addEventListener("change",(e)=>{
+//    console.log(e.target.value);
+// })
+
+// myBox.addEventListener("doubleclick",()=>{
+//     document.body.style.background="black";
+
+// })
+
+// myBox.addEventListener("click",()=>{
+//     document.body.style.background="white";
+
+// })
+
+// NewClickBtn.addEventListener("contextmenu",()=>{
+//     document.style.background ="pink";  
+// })
+
+
+
+
+
+// addEventListener("contextmenu",(e)=>{
+//     e.preventDefault();
+// })
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
