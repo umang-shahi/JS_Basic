@@ -639,6 +639,40 @@
 
 
 
+//local and session storage
+
+// const myClick=document.getElementById("myclick");
+// const myInput = document.getElementById("myinput");
+// const myCLear =document.getElementById("myclear");
+
+
+
+// const callMeBack = () => {
+//     // alert(myInput.value);
+//     localStorage.setItem("key",myInput);
+// }
+
+// const DeleteToken =()=>{
+//     localStorage.clear();
+// }
+
+// myClick.addEventListener("click",callMeBack);
+// myCLear.addEventListener("click",DeleteToken);
+
+
+// if(localStorage.getItem("key")){
+//     alert(localStorage.getItem("key"))
+   
+//    }
+//   else {
+//     alert("xaina ta")
+//   }
+ 
+
+
+
+
+
   
 
 
