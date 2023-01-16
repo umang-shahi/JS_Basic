@@ -649,7 +649,9 @@
 
 // const callMeBack = () => {
 //     // alert(myInput.value);
-//     localStorage.setItem("key",myInput);
+//     localStorage.setItem("name",
+//     JSON.stringify({fname:"ram",lname:"shahi",age:23})   //stringify to convert object into strings.
+// )
 // }
 
 // const DeleteToken =()=>{
@@ -660,13 +662,71 @@
 // myCLear.addEventListener("click",DeleteToken);
 
 
-// if(localStorage.getItem("key")){
-//     alert(localStorage.getItem("key"))
+// if(localStorage.getItem("name")){
+//     // alert(localStorage.getItem("name"))
+//     console.log(JSON.parse(localStorage.getItem("name")));  // parse to convert all into objects
    
 //    }
 //   else {
-//     alert("xaina ta")
+//     alert("xaina ta k garnu ")
 //   }
+
+
+
+
+
+//math object
+
+// const value=Math.random();
+// console.log(value);
+
+// const value= Math.abs(-5);
+// console.log(value);
+
+// const value=Math.max(2,3,4,5,60);
+// console.log(value);
+
+// const value=Math.trunc(3.8);
+//  console.log(value);
+
+
+//  const values=Math.pow(2,9);
+//  console.log(values);
+
+
+//  const valuess= Math.sqrt(625);
+//  console.log(valuess);
+
+
+
+
+
+//setTimeOut and setInterval
+
+
+//  const setId=setInterval ( () => {
+//     console.log("sabai jana ko aatmale santi paaos")
+// }, 3000)
+
+// setTimeout(()=>{
+//     clearInterval(setId);
+// },3000) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
