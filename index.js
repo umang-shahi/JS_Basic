@@ -725,6 +725,104 @@
 
 
 
+//Inheritance
+function BankAccount(CustomerName, balance=0){
+    this.CustomerName = CustomerName;
+    this.accountNumber= Date.now();
+    this.balance=balance;
+
+    // this.deposit= function(amount){
+    //     this.balance +=amount;
+    // }
+    
+    // this.withdraw= function(amount){
+    //     this.balance -=amount;
+    // }
+
+}
+
+ CurrentAccount.prototype = Object.create(CurrentAccount.prototype);   //inherit
+
+
+BankAccount.prototype.deposit = function(amount){
+    this.balance+=amount;
+}
+
+BankAccount.prototype.withdraw = function(amount){
+    this.balance-=amount;
+}
+
+function CurrentAccount(CustomerName, balance=0){
+    BankAccount.call(this,CustomerName,balance);
+    
+    this.transactionlimit=(200000);
+
+}
+
+function SavingAccount(CustomerName, balance=0){
+    BankAccount.call(this,CustomerName,balance);
+    
+    this.transactionlimit=(100000);
+
+}
+
+CurrentAccount.prototype = Object.create(CurrentAccount.prototype); 
+
+
+
+// CurrentAccount.prototype.BusinessLoan= function(amount)
+// {
+//   console.log(`BusinessLoan is: ${amount}`);
+// }
+
+
+// const hariAcc=new BankAccount("hari",5000);
+// const hariAcc = new CurrentAccount("hari",2000);
+
+
+const hariAcc = new BankAccount("hari",2000)
+
+hariAcc.deposit(200);
+console.log(hariAcc);
+
+
+
+
+
+// function person(Fname,Lname,age){
+//       this.Fname= Fname;
+//       this.Lname=Lname;
+//       this.age = age;
+
+
+//         this.jiji=function(){
+//             console.log(`My name is ${Fname} ${Lname} and my age is ${age}`);
+//         }
+      
+//     }    
+      
+
+
+
+// const otherName = new person ("Umang","Shahi",22);
+// const othern = new person ("arya","don",19);
+
+
+// console.log(otherName);
+// console.log(othern);
+
+
+
+// otherName.jiji();
+// othern.jiji();
+
+
+
+
+
+
+
+
 
 
 
