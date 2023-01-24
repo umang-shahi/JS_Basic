@@ -975,22 +975,32 @@
 
 
 // class User{
-//     constructor(name,age){
+//     static id=1;
+//     constructor(name,age,income){
 //         this.name=name;
 //         this.age=age;
+//         this.income=income;
+//         this.id =User.id++;
 
 //         }
-//         static sortByAge(a,b){
-//             return a.age - b.age
+//         // static sortByAge(a,b){
+//         //     return a.age - b.age
+//         // }
+
+//         static sortByIncome(a,b){
+//             return a.income - b.income
 //         }
 // }
 
-// const useer1=new User("ram",23);
-// const useer2=new User("shyam",22);
-// const useer3=new User("hari",21);
+// const useer1=new User("ram",23,900);
+// const useer2=new User("shyam",22,200);
+// const useer3=new User("hari",21,1000);
 
 // const users = [useer1 ,useer2, useer3];
-// users.sort(User.sortByAge);
+// // users.sort(User.sortByAge);
+// users.sort(User.sortByIncome);
+
+
 // console.log(users);
 
 
