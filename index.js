@@ -726,10 +726,10 @@
 
 
 //Inheritance
-function BankAccount(CustomerName, balance=0){
-    this.CustomerName = CustomerName;
-    this.accountNumber= Date.now();
-    this.balance=balance;
+// function BankAccount(CustomerName, balance=0){
+//     this.CustomerName = CustomerName;
+//     this.accountNumber= Date.now();
+//     this.balance=balance;
 
     // this.deposit= function(amount){
     //     this.balance +=amount;
@@ -739,34 +739,34 @@ function BankAccount(CustomerName, balance=0){
     //     this.balance -=amount;
     // }
 
-}
+// }
 
- CurrentAccount.prototype = Object.create(CurrentAccount.prototype);   //inherit
+//  CurrentAccount.prototype = Object.create(CurrentAccount.prototype);   //inherit
 
 
-BankAccount.prototype.deposit = function(amount){
-    this.balance+=amount;
-}
+// BankAccount.prototype.deposit = function(amount){
+//     this.balance+=amount;
+// }
 
-BankAccount.prototype.withdraw = function(amount){
-    this.balance-=amount;
-}
+// BankAccount.prototype.withdraw = function(amount){
+//     this.balance-=amount;
+// }
 
-function CurrentAccount(CustomerName, balance=0){
-    BankAccount.call(this,CustomerName,balance);
+// function CurrentAccount(CustomerName, balance=0){
+//     BankAccount.call(this,CustomerName,balance);
     
-    this.transactionlimit=(200000);
+//     this.transactionlimit=(200000);
 
-}
+// }
 
-function SavingAccount(CustomerName, balance=0){
-    BankAccount.call(this,CustomerName,balance);
+// function SavingAccount(CustomerName, balance=0){
+//     BankAccount.call(this,CustomerName,balance);
     
-    this.transactionlimit=(100000);
+//     this.transactionlimit=(100000);
 
-}
+// }
 
-CurrentAccount.prototype = Object.create(CurrentAccount.prototype); 
+// CurrentAccount.prototype = Object.create(CurrentAccount.prototype); 
 
 
 
@@ -780,10 +780,10 @@ CurrentAccount.prototype = Object.create(CurrentAccount.prototype);
 // const hariAcc = new CurrentAccount("hari",2000);
 
 
-const hariAcc = new BankAccount("hari",2000)
+// const hariAcc = new BankAccount("hari",2000)
 
-hariAcc.deposit(200);
-console.log(hariAcc);
+// hariAcc.deposit(200);
+// console.log(hariAcc);
 
 
 
@@ -822,12 +822,176 @@ console.log(hariAcc);
 
 
 
+//function based oop
+
+
+// function BankAccount(CustomerName,balance=0){
+//     this.CustomerName=CustomerName;
+//     this.balance=balance;
+//     this.AccountNumber=Date.now();
+
+
+// }
 
 
 
+// BankAccount.prototype.deposit=function(amount){
+    
+//         this.balance+=amount;
+    
+// }
 
+// BankAccount.prototype.withdraw=function(amount){
+   
+//         this.balance-=amount;
  
+// }
 
+// //child class inheritance
+// function CurrentAccount(CustomerName,balance=0){
+//  BankAccount.call(this,CustomerName,balance);  //constructor calling
+//  this.TransactionLimit= 100000;
+
+// }
+
+// CurrentAccount.prototype = Object.create(BankAccount.prototype);
+// CurrentAccount.prototype.takeBusinessLoan = function(amount){
+//     console.log(`Taking loan: ${amount}`);
+// }
+
+
+// const  hariAcc = new CurrentAccount("hari",1000);
+// hariAcc.takeBusinessLoan(1);
+// hariAcc.deposit(2000);
+// console.log(hariAcc);
+
+
+// // const hariAcc=new BankAccount("hari",2000);
+
+
+
+
+
+
+// //class based oop and inheritance
+
+// class BankAccount{
+//     CustomerName;
+//     accountNumber;
+//    #balance;
+
+//    constructor(CustomerName,balance=0){
+//     this.CustomerName=CustomerName;
+//     this.accountNumber = Date.now();
+//     this.#balance=balance;
+//    }
+
+//   deposit(amount){
+//     this.#balance +=amount;
+//     console.log(`Deposited ${amount}, Current balance is:${this.#balance}`)
+//   }
+
+//   withdraw(amount){
+//     this.#balance -= amount;
+//     if(this.#balance >= amount){
+//     console.log(`Withdrawed ${amount}, Current balance is:${this.#balance}`)
+//     }
+//     else {
+//         console.log(`Insufficient Fund, You have only: ${this.#balance}`);
+//     }
+//   }
+
+
+//   set balance(amount){
+//   this.#balance = amount
+//   }
+//   get balance(){
+//   return this.#balance
+//   }
+  
+
+
+// }
+
+// //child class
+// class CurrentAccount extends BankAccount{
+    
+//    constructor(CustomerName,balance=0){
+//     super(CustomerName,balance);
+//     this.transactionLimit= 5000;
+    
+//    }
+
+//    #calculateInterest(amount){
+//     const interest = amount*0.1;
+//     console.log(`Taking business loan is: ${amount}`);
+//    }
+
+//   takeBusinessLaon(amount){
+//     this.#calculateInterest(amount);
+//     console.log(`Take loan:${amount}`);
+//   }
+  
+// }
+
+// const hariAcc=new BankAccount("hari",3000);
+
+
+// hariAcc.deposit(2);
+// hariAcc.withdraw(1);
+
+// const hariAcc = new CurrentAccount("hari",2000);
+// hariAcc.takeBusinessLaon(20);
+// hariAcc.deposit(1);
+// hariAcc.withdraw(1);
+
+
+
+// hariAcc.takeBusinessLaon(200);
+
+// console.log(hariAcc);
+
+
+
+// static property and method
+
+// class Calculator{
+//     static add(a,b){
+//         return a+b;
+//     }
+//     static sub(c,d){
+//         return c-d;
+//     }
+// }
+// let addition = Calculator.add(5,8);
+// console.log(addition);
+
+// let subtraction = Calculator.sub(3,2);
+// console.log(subtraction);
+
+
+// let ans =Math.random();
+// console.log(ans);
+
+
+// class User{
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+
+//         }
+//         static sortByAge(a,b){
+//             return a.age - b.age
+//         }
+// }
+
+// const useer1=new User("ram",23);
+// const useer2=new User("shyam",22);
+// const useer3=new User("hari",21);
+
+// const users = [useer1 ,useer2, useer3];
+// users.sort(User.sortByAge);
+// console.log(users);
 
 
 
