@@ -1004,12 +1004,25 @@
 // console.log(users);
 
 
+// function myFunc(name="ram"){
+//     setTimeout(()=>{
+//         for (let i=0;i<100;i++){
+//             return(`Whatsup:${name}`)
+//             }
+//     },4000)
 
-
+// }
   
+//  myFunc();
+//  alert("hello world");
+//  console.log("lastline");
 
 
+// setTimeout(()=>{
+//     console.log("hello world")
+// },4000)
 
+// alert("hey me");
 
 
 
