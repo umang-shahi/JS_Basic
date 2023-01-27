@@ -1035,3 +1035,174 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//callback and callback hell
+
+// function add(a,b,callback){
+//     const result= a+b;
+//     callback(result);
+// }
+
+// function printResult(result){
+//     console.log(`The result is ${result}`);
+// }
+
+// add(5,7,printResult);// The result is 12
+
+// function calculation(a,b,callback){
+//     const result = a+b;
+//     callback(result);
+     
+// }
+
+// function print(result){
+//     console.log(`The result is ${result}`)
+// }
+// calculation(6,9,print);
+
+
+
+
+//dry donot repeat yourself
+
+// let arr = [2, 4, 7, 9];
+// function calculation(arr=[], callback){
+//     let newArr =[];
+//     for(i=0;i<arr.length;i++){
+//         const element= callback(arr[i]+5)
+//         newArr.push(element);
+//     }
+
+
+// console.log(newArr);
+// }
+
+
+
+// function add(a){
+//     return a+5
+
+// }
+
+// function sub(a){
+//     return a-5
+
+// }
+// calculation(arr,((a)=>
+//     a+5
+// ));
+
+
+
+// calculation(arr,((a)=>
+//     a-5
+// ));
+
+
+
+
+
+// promises
+
+// const a = new Promise((resolve,reject)=>{
+
+//     resolve("promise fulfilled")
+//     reject("errors");
+    
+  
+// })
+
+// a.then((mssg)=>{
+//     console.log(mssg)
+// })
+
+
+// a.catch((error)=>{
+//     console.log(error)
+// })
+
+
+// a.finally(()=>{
+//     console.log("work either");
+// })
+
+
+
+// let arr =[]
+// function fetchedData(arr=[]){
+//     return new Promise((resolve,reject)=>{
+//         arr.push({name:"ram",age:23})
+//         if(arr.length>0){
+//             resolve("fulfilled")
+//         }else{
+//             reject("some errors")
+//         }
+
+//     }
+
+// )}
+
+// fetchedData(arr)
+// .then((msg)=>console.log(msg))
+// .catch((error)=>console.log(error))
+// .finally(()=>console.log.log("all done"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fetch api
+
+
+// const h1 = document.querySelector("h1");
+
+// function fetchedData(){
+//     fetch("https://catfact.ninja/fact")
+
+//     .then((res)=>{return(res.json())})
+
+//     .then((data)=> (h1.innerText=data.fact))
+
+
+//     .catch((error)=>console.log(error))
+// }
+
+// fetchedData();
+
