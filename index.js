@@ -1,6 +1,5 @@
 //JAVASCRIPT
 
-
 // var x=3;
 // console.log(x);
 // console.log(x*x*x);
@@ -11,7 +10,7 @@
 // const pie=3.14;
 // console.log(pie);
 // alert("Oye kukur!! Bolna");
- 
+
 // const x="8";
 // x=int(x);
 // console.log(x);
@@ -83,36 +82,26 @@
 // //Slicing
 // console.log(str.slice(0,7)) //It doesnot include the exact last data of the index
 
-
-
 // const heading = document.getElementById('mycss');
 // heading.innerText = "hello umang";
-
 
 // heading.style.background="red";
 // heading.style.color = "white";
 // heading.style.textAlign ="center";
-
-
-
-
 
 //conditions
 
 // let email = "umangshahi800gmail.com";
 // let pass = "1111111111";
 // if (email===umangshahi800gmail.com && pass==="1111111111"){
-    // console.log("login success!");
+// console.log("login success!");
 // } else {
-    // console.log("invalid!");
-// } 
-
-
+// console.log("invalid!");
+// }
 
 //x=10
 
 // let x=10;
-
 
 // if (x > 15) {
 //     console.log("x is gretater than 15")
@@ -137,7 +126,6 @@
 // }else {
 //     console.log("invalid");
 // }
-
 
 //switch
 
@@ -204,7 +192,6 @@
 //         break;
 // }
 
-
 // let month="feb";
 
 // switch (month) {
@@ -270,14 +257,13 @@
 // document.write(newAdd.unshift("sharma"));
 // document.write(newAdd);
 
-
-//pop 
+//pop
 // const newAdd = [ 1, 2, 4, "sdf"];
 // console.log(newAdd);
 // const newData = newAdd.pop();
 // console.log(newData);
 
-//shift 
+//shift
 // const newAdd = [ 1, 2, 4, "sdf"];
 // const newData = newAdd.shift();
 // console.log(newAdd);
@@ -295,7 +281,7 @@
 //console.log(findFlter);
 //console.log(newArr);
 
-//Splice 
+//Splice
 // console.log(newArr.splice(2,4));
 
 //reverse
@@ -312,16 +298,10 @@
 
 // myarr[0] = 1;
 
-
-
 // for (let i=0;i<10;i++) {
 //     myarr[i]=i;
 //     myarr.push(i);
 // }
-
-
-
-
 
 //objects
 
@@ -367,7 +347,6 @@
 
 //     },
 
-
 // }
 
 // console.log(car);
@@ -382,9 +361,6 @@
 //     console.log("not valid")
 // }
 
-
-
-
 //functions
 
 // function myData () {
@@ -393,7 +369,7 @@
 //     let result = a / b;
 
 //     console.log(result);
-    
+
 // }
 
 // myData();
@@ -418,13 +394,6 @@
 
 // myValue();
 
-
-
-
-
-
-
-
 // function myData ( arr = []) {
 //     let total = 0;
 //     for (let i=0; i< arr.length; i++){
@@ -436,12 +405,6 @@
 // const ans = myData([3,4,5,6]);
 // console.log(ans);
 
-
-
-
-
-
-
 // var x = 90;
 
 // function myVar(){
@@ -452,9 +415,7 @@
 
 // console.log(x);
 
-
 // myVar();
-
 
 // function myBlock(){
 //     if(true){
@@ -467,8 +428,6 @@
 
 // myBlock();
 
-
-
 // function myBlock(){
 //     if(true){
 //         const y= (2*6-1)/2;
@@ -477,19 +436,16 @@
 //     }
 // myBlock();
 
-
 //dom manipulation
 
 // const ans = document.getElementById("myIs");
 // ans.innerHTML= "ronaldo 💕";
-
 
 // ans.innerText = "ronaldo is ⭐";
 
 // const result=document.getElementsByClassName("myYour");
 // console.log(result[0]);
 // result[0].innerHTML = "ajxubx  j hhhhhhhjhhhjm";
-  
 
 //  const  ans =document.getElementsByTagName("span");
 //  console.log(ans);
@@ -505,7 +461,6 @@
 // ans.style.backgroundColor="blue";
 // ans.style.padding="2px";
 // ans.style.border="none";
-
 
 // const ans = document.createElement("h2");
 // console.log(ans);
@@ -530,57 +485,39 @@
 //     myClear[1].style.border ="none";
 //     myClear[1].style.cursor ="pointer";
 //     }
-//     function deleteThis() 
+//     function deleteThis()
 //     {
 //         const PleaseDelete =documet.querySelector("h1");
 //         PleaseDelete.remove();
-        
+
 //     }
 
 //     myButton.onCLick =myFunc;
 //     myClear[1].onClick = deleteThis;
 
-
-
-
-
-
 //Advanced array method (if we use for each it cannot return array(anything). it omly iterate main array)
 
+//   const result = arr.forEach((value,index,array) => {
+//     console.log();
 
- 
-    
-      
+//   })
+//   console.log(result);
 
-    //   const result = arr.forEach((value,index,array) => {
-    //     console.log();
-
-    //   })
-    //   console.log(result);
-
-
-    //map
-    // if we use map method it returns new array after iterate main array 
-   
-
+//map
+// if we use map method it returns new array after iterate main array
 
 // const myMap = arr.map((value,index,array)=>{
 //   return (arr[index]= value+ 2);
 // });
 
-
-
-// console.log(myMap); 
-
-
+// console.log(myMap);
 
 // const result = arr.filter((value,index)=>{
-  
+
 //   return value % 2 !==0 ;
 
 // });
 //     console.log(result);
-
 
 // let arr =[6,8,4,2,10,12];
 
@@ -598,10 +535,8 @@
 // })
 // console.log(result);
 
-
 // const newClickButn = document.getElementById("newClick");
-// console.log(newClickButn);  
-
+// console.log(newClickButn);
 
 //addeventclicklisteners
 
@@ -623,21 +558,12 @@
 // })
 
 // NewClickBtn.addEventListener("contextmenu",()=>{
-//     document.style.background ="pink";  
+//     document.style.background ="pink";
 // })
-
-
-
-
 
 // addEventListener("contextmenu",(e)=>{
 //     e.preventDefault();
 // })
-
-
-
-
-
 
 //local and session storage
 
@@ -645,12 +571,10 @@
 // const myInput = document.getElementById("myinput");
 // const myCLear =document.getElementById("myclear");
 
-
-
 // const callMeBack = () => {
 //     // alert(myInput.value);
 //     localStorage.setItem("name",
-//     JSON.stringify({fname:"ram",lname:"shahi",age:23})   //stringify to convert object into strings.
+//     JSON.stringify({name:"umang", age:23})  //stringify to convert object into strings.
 // )
 // }
 
@@ -661,19 +585,14 @@
 // myClick.addEventListener("click",callMeBack);
 // myCLear.addEventListener("click",DeleteToken);
 
-
 // if(localStorage.getItem("name")){
 //     // alert(localStorage.getItem("name"))
 //     console.log(JSON.parse(localStorage.getItem("name")));  // parse to convert all into objects
-   
+
 //    }
 //   else {
 //     alert("xaina ta k garnu ")
 //   }
-
-
-
-
 
 //math object
 
@@ -689,20 +608,13 @@
 // const value=Math.trunc(3.8);
 //  console.log(value);
 
-
 //  const values=Math.pow(2,9);
 //  console.log(values);
-
 
 //  const valuess= Math.sqrt(625);
 //  console.log(valuess);
 
-
-
-
-
 //setTimeOut and setInterval
-
 
 //  const setId=setInterval ( () => {
 //     console.log("sabai jana ko aatmale santi paaos")
@@ -710,20 +622,7 @@
 
 // setTimeout(()=>{
 //     clearInterval(setId);
-// },3000) 
-
-
-
-
-
-
-
-
-
-
-
-
-
+// },3000)
 
 //Inheritance
 // function BankAccount(CustomerName, balance=0){
@@ -731,18 +630,17 @@
 //     this.accountNumber= Date.now();
 //     this.balance=balance;
 
-    // this.deposit= function(amount){
-    //     this.balance +=amount;
-    // }
-    
-    // this.withdraw= function(amount){
-    //     this.balance -=amount;
-    // }
+// this.deposit= function(amount){
+//     this.balance +=amount;
+// }
+
+// this.withdraw= function(amount){
+//     this.balance -=amount;
+// }
 
 // }
 
 //  CurrentAccount.prototype = Object.create(CurrentAccount.prototype);   //inherit
-
 
 // BankAccount.prototype.deposit = function(amount){
 //     this.balance+=amount;
@@ -754,97 +652,72 @@
 
 // function CurrentAccount(CustomerName, balance=0){
 //     BankAccount.call(this,CustomerName,balance);
-    
+
 //     this.transactionlimit=(200000);
 
 // }
 
 // function SavingAccount(CustomerName, balance=0){
 //     BankAccount.call(this,CustomerName,balance);
-    
+
 //     this.transactionlimit=(100000);
 
 // }
 
-// CurrentAccount.prototype = Object.create(CurrentAccount.prototype); 
-
-
+// CurrentAccount.prototype = Object.create(CurrentAccount.prototype);
 
 // CurrentAccount.prototype.BusinessLoan= function(amount)
 // {
 //   console.log(`BusinessLoan is: ${amount}`);
 // }
 
-
 // const hariAcc=new BankAccount("hari",5000);
 // const hariAcc = new CurrentAccount("hari",2000);
-
 
 // const hariAcc = new BankAccount("hari",2000)
 
 // hariAcc.deposit(200);
 // console.log(hariAcc);
 
-
-
-
-
 // function person(Fname,Lname,age){
 //       this.Fname= Fname;
 //       this.Lname=Lname;
 //       this.age = age;
 
-
 //         this.jiji=function(){
 //             console.log(`My name is ${Fname} ${Lname} and my age is ${age}`);
 //         }
-      
-//     }    
-      
 
-
+//     }
 
 // const otherName = new person ("Umang","Shahi",22);
 // const othern = new person ("arya","don",19);
 
-
 // console.log(otherName);
 // console.log(othern);
-
-
 
 // otherName.jiji();
 // othern.jiji();
 
-
-
-
-
-
-
 //function based oop
-
 
 // function BankAccount(CustomerName,balance=0){
 //     this.CustomerName=CustomerName;
 //     this.balance=balance;
 //     this.AccountNumber=Date.now();
 
-
 // }
 
-
-
 // BankAccount.prototype.deposit=function(amount){
-    
+
 //         this.balance+=amount;
-    
+
 // }
 
 // BankAccount.prototype.withdraw=function(amount){
-   
+
 //         this.balance-=amount;
- 
+
 // }
 
 // //child class inheritance
@@ -859,19 +732,12 @@
 //     console.log(`Taking loan: ${amount}`);
 // }
 
-
 // const  hariAcc = new CurrentAccount("hari",1000);
 // hariAcc.takeBusinessLoan(1);
 // hariAcc.deposit(2000);
 // console.log(hariAcc);
 
-
 // // const hariAcc=new BankAccount("hari",2000);
-
-
-
-
-
 
 // //class based oop and inheritance
 
@@ -901,25 +767,22 @@
 //     }
 //   }
 
-
 //   set balance(amount){
 //   this.#balance = amount
 //   }
 //   get balance(){
 //   return this.#balance
 //   }
-  
-
 
 // }
 
 // //child class
 // class CurrentAccount extends BankAccount{
-    
+
 //    constructor(CustomerName,balance=0){
 //     super(CustomerName,balance);
 //     this.transactionLimit= 5000;
-    
+
 //    }
 
 //    #calculateInterest(amount){
@@ -931,11 +794,10 @@
 //     this.#calculateInterest(amount);
 //     console.log(`Take loan:${amount}`);
 //   }
-  
+
 // }
 
 // const hariAcc=new BankAccount("hari",3000);
-
 
 // hariAcc.deposit(2);
 // hariAcc.withdraw(1);
@@ -945,13 +807,9 @@
 // hariAcc.deposit(1);
 // hariAcc.withdraw(1);
 
-
-
 // hariAcc.takeBusinessLaon(200);
 
 // console.log(hariAcc);
-
-
 
 // static property and method
 
@@ -969,10 +827,8 @@
 // let subtraction = Calculator.sub(3,2);
 // console.log(subtraction);
 
-
 // let ans =Math.random();
 // console.log(ans);
-
 
 // class User{
 //     static id=1;
@@ -1000,9 +856,7 @@
 // // users.sort(User.sortByAge);
 // users.sort(User.sortByIncome);
 
-
 // console.log(users);
-
 
 // function myFunc(name="ram"){
 //     setTimeout(()=>{
@@ -1012,49 +866,16 @@
 //     },4000)
 
 // }
-  
+
 //  myFunc();
 //  alert("hello world");
 //  console.log("lastline");
-
 
 // setTimeout(()=>{
 //     console.log("hello world")
 // },4000)
 
 // alert("hey me");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //callback and callback hell
 
@@ -1072,16 +893,13 @@
 // function calculation(a,b,callback){
 //     const result = a+b;
 //     callback(result);
-     
+
 // }
 
 // function print(result){
 //     console.log(`The result is ${result}`)
 // }
 // calculation(6,9,print);
-
-
-
 
 //dry donot repeat yourself
 
@@ -1093,11 +911,8 @@
 //         newArr.push(element);
 //     }
 
-
 // console.log(newArr);
 // }
-
-
 
 // function add(a){
 //     return a+5
@@ -1112,15 +927,9 @@
 //     a+5
 // ));
 
-
-
 // calculation(arr,((a)=>
 //     a-5
 // ));
-
-
-
-
 
 // promises
 
@@ -1128,25 +937,20 @@
 
 //     resolve("promise fulfilled")
 //     reject("errors");
-    
-  
+
 // })
 
 // a.then((mssg)=>{
 //     console.log(mssg)
 // })
 
-
 // a.catch((error)=>{
 //     console.log(error)
 // })
 
-
 // a.finally(()=>{
 //     console.log("work either");
 // })
-
-
 
 // let arr =[]
 // function fetchedData(arr=[]){
@@ -1167,29 +971,7 @@
 // .catch((error)=>console.log(error))
 // .finally(()=>console.log.log("all done"));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //fetch api
-
 
 // const h1 = document.querySelector("h1");
 
@@ -1200,9 +982,122 @@
 
 //     .then((data)=> (h1.innerText=data.fact))
 
-
-//     .catch((error)=>console.log(error))
+//     .catch((error)=>console.log(error)
 // }
 
 // fetchedData();
+
+// hoisting
+
+// const myfunc = (a,b) => {
+//     return a*b;
+
+// }
+// console.log(myfunc(0,9));
+
+//bom
+
+// console.log(navigator.geolocation.getCurrentPosition((d)=>{
+//     console.log(d.coords.longitude);
+// }));
+
+// console.log(location.protocol);
+// console.log(location.hostname);
+// console.log(location.port);
+// console.log(location.pathname);
+// console.log(location.href);
+// console.log(location.port);
+
+// const myFunc =()=> location.assign("https://www.youtube.com");
+
+// console.log(history);
+
+// console.log(screen)
+
+
+
+
+
+
+//async and await  (promise handling)
+
+// const h1 = document.querySelector("h1");
+// const url = "https://catfact.ninja/fact";
+
+// console.log("a");
+
+// const fetchedData = async () => {
+//   try {
+//     console.log("b");
+//     const res = await fetch(url);
+
+//     console.log("d");
+
+//     const data = await res.json();
+//     console.log("c");
+
+//     h1.innerText = data.fact;
+//     //    throw new error("error yttikai")  // for custom error handling
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+
+// fetchedData();
+// console.log("z");
+
+
+
+//Normal function
+// const obj ={
+//     name: "john",
+//     printName:  function(){
+//         console.log(this.name)
+//     }
+// }
+// obj.printName();
+
+
+//Arrow function 
+//  const objs ={
+//     name:"john",
+//     printName: ()=>{
+//         console.log(this.name)
+//     }
+
+    
+
+//  }
+//  objs.printName();
+
+
+
+
+
+// function printarguments(){
+//     console.log(arguments)
+// }
+// printarguments(1,2,3);
+
+
+// const printarguments = () => {
+//     console.log(arguments)
+// }
+//  printarguments(1,2,3);
+
+
+
+
+// function person(name){
+//     this.name=name;
+// }
+// const john = new person ("john");
+// console.log(john.name);
+    
+
+// const  person = (name)=>{
+//     this.name=name;
+// }
+// const john = new person ("john");
+// console.log(john.name);
 
